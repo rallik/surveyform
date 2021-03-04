@@ -10,23 +10,23 @@
 <body>
     <main>
         <header>
-            <h1 id="title">Form</h1>
-            <h2 id="description">Quick form!</h2>
+            <h1 id="title">Have you visited San Francisco?</h1>
+            <h2 id="description">Please fill out this quick form!</h2>
         </header>
-        <form id="survey-form">
+        <form id="survey-form" class="survey-form">
             <label for="name" id="name-label">Name:</label>
             <input type="text" name="name" id="name" placeholder="Firstname Lastname">
 
             <label for="email" id="email-label">Email:</label>
             <input type="email" name="email" id="email" placeholder="name@address.anything">
             
-            <label for="number" id="number-label">Number:</label>
+            <label for="number" id="number-label">Duration of Stay:</label>
             <input type="number" name="number" id="number" min="0" max="10" placeholder="1, 2, 3, etc.">
 
-            <label for="range" id="range-label">Range:</label>
+            <label for="range" id="range-label">Rating (1-10):</label>
             <input type="range" name="range" id="range" min="0" max="10" value="5">
 
-            <label for="date" id="date-label">Date:</label>
+            <label for="date" id="date-label">Arrival Date:</label>
             <input type="date" name="date" id="date">
         </form>
     </main>

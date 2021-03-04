@@ -1,10 +1,55 @@
-body, main {
+body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    background-image: url(DP2_9912.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+main {
+    position: absolute;
+    margin: 3% 0 0 3%;
+    width: 35%;
+    height: 50%;
+    color: #fafafa;
+    border-radius: 10px;
+
+    
+}
+
+header {
+    margin: 0 0 5% 0;
 }
 
 h1 {
     margin: 0;
 
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.survey-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-form input {
+    width: 25%;
+    margin: 1% 0 2% 0;
+    padding: 1% 0 1% 0.5%;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.survey-form #number {
+    width: 10%;
 }
